@@ -36,7 +36,7 @@ class AboutUs extends React.PureComponent {
 
 
            <Card> 
-          <QRCode value='0010003141'/>
+          <QRCode value='Hello world'/>
           </Card>
         </div>
       );
