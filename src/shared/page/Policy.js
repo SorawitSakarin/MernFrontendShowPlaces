@@ -8,7 +8,7 @@ export const Policy = React.forwardRef((props, ref) => {
     <div ref={ref}>
     <Card >
       <h2>Hello world</h2>
-      <p>lorem</p>
+      <p>This section is to testing print function</p>
     </Card>
     </div>
   );
