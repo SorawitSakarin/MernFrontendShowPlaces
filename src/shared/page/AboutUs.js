@@ -25,15 +25,7 @@ class AboutUs extends React.PureComponent {
     event.preventDefault();
   }
   render() {
-    // const [input,setInput] = useState('');
-    // const [qrInput, setQrInput] = useState('Hello world');
-    // const handleChange =(e) =>{
-    //   setInput(e.target.value)
-    // };
-    // const handleSubmit = (e) =>{
-    //   e.preventDefault();
-    //   setQrInput(input);
-    // };
+   
     return (
       <div>
         <Card>
@@ -68,20 +60,5 @@ class AboutUs extends React.PureComponent {
     );
   }
 }
-// const AboutUs = () =>{
-//     return (
-//       <div>
-//         <ReactToPrint
-//           trigger={() => {
-//             // NOTE: could just as easily return <SomeComponent />. Do NOT pass an `onClick` prop
-//             // to the root node of the returned component as it will be overwritten.
-//             return <a href="#">Print this out!</a>;
-//           }}
-//           content={() => this.componentRef}
-//         />
-//         <Policy ref={el => (this.componentRef = el)} />
-//       </div>
-//     );
-//   }
 
 export default AboutUs;
