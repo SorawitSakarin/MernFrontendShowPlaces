@@ -37,7 +37,7 @@ class AboutUs extends React.PureComponent {
           }}
           content={() => this.componentRef}
         />
-        <Policy ref={(el) => (this.componentRef = el)} />
+        <Policy ref={(el) => (this.componentRef = el) } value={this.state.qrinput} />
 
         <br></br>
           <form onSubmit={this.handleSubmit}>
@@ -52,9 +52,9 @@ class AboutUs extends React.PureComponent {
             <input type="submit" value="Submit" />
           </form>
           <br></br>
-          <Card>
+          {/* <Card>
             <QRCode value={this.state.qrinput} />
-          </Card>
+          </Card> */}
         </Card>
       </div>
     );
